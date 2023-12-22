@@ -5,6 +5,23 @@
   "prefix": "language-esbuild",
   "sourceRoot": "apps/language-esbuild/src",
   "tags": [],
+  "i18n": {
+    "sourceLocale": "en-NL",
+    "locales": {
+      "fr": {
+        "translation": ["locale/translations.fr.xlf"],
+        "baseHref": "fr/"
+      },
+      "nl": {
+        "translation": ["locale/translations.nl.xlf"],
+        "baseHref": "nl/"
+      },
+      "en": {
+        "translation": ["locale/translations.en.xlf"],
+        "baseHref": "en/"
+      }
+    }
+  },
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
@@ -20,7 +37,8 @@
           "apps/language-esbuild/src/assets"
         ],
         "styles": ["apps/language-esbuild/src/styles.css"],
-        "scripts": []
+        "scripts": [],
+        "localize": true
       },
       "configurations": {
         "production": {

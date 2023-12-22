@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="global" datatype="plaintext" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="firtname">
+        <source xml:lang="en">First name</source>
+        <target xml:lang="nl">First name</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
